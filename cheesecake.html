@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<!-- This creates the Title of the webpage -->
+<head>
+    <title>Cheesecake Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- This is where the body text starts for the webpage -->
+<body>
+    <div class="header">
+        <h1>Cheesecake Order Form</h1> <!-- is the title on the webpage -->
+    </div>
+    <div class="sideBySide">
+        <div class="bulletPoints">
+            <h2>Quantities</h2>
+           <!-- The dropdown menu for quantities -->
+            <select name="cars" id="cars">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+            </select>
+
+        </div>
+
+        <div class="Toppings">
+            <h2>Toppings</h2>
+            <!-- This creates the selection for the different
+            types of toppings. You can only select one in the form. -->
+            <form>
+                <input type="radio" name="toppings">
+                <label for="Plain">Plain</label><br>
+                <input type="radio" name="toppings">
+                <label for="Cherry">Cherry</label><br>
+                <input type="radio" name="toppings">
+                <label for="Chocolate">Chocolate</label>
+            </form>
+        </div>
+    </div>
+    <!-- The notes section is created with a header, 
+        a textbox, a button
+     -->
+    <div class="row">
+        <div class="Notes">
+            <h2>Notes</h2>
+            <textarea cols="40" rows="5" placeholder="Enter Any Special Instructions Here."></textarea>
+            <button class="button button1">Order</button>
+        </div>
+    </div>
+    <!-- This section describes the total orders 
+        and the inividual orders in a list -->
+    <div class="bottomText">
+        <h2>Total Orders Last Month</h2>
+        <ul>
+            <li>11 Cherry</li>
+            <li>17 Chocolate</li>
+            <li>31 Plain</li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

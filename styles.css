@@ -45,6 +45,7 @@ and centers content
     grid-column-gap: 200px;
     justify-content: center;
 }
+
 /*
 The below part:
 sets font for heading style 2
@@ -52,6 +53,7 @@ sets font for heading style 2
 h2 {
     font-family: 'Courier New', Courier, monospace;
 }
+
 /*
 The below part:
 sets position of the notes
